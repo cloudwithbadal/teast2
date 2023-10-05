@@ -14,7 +14,7 @@ jobs:
       - name: repo-sync
         uses: repo-sync/github-sync@v2
         with:
-          source_repo: 'https://devops-varaisys:Badal$%678@github.com/devops-varaisys/test.git'
+          source_repo: 'https://devops-varaisys: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@github.com/devops-varaisys/test.git'
           source_branch: 'main'
           destination_branch: 'main'
           github_token: ${{ secrets.GH_PAT }}
